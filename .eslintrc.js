@@ -253,23 +253,6 @@ module.exports = {
         ],
         "quote-props": "off",
         "quotes": "off",
-        "react-hooks/exhaustive-deps": "off",
-        "react/jsx-child-element-spacing": "off",
-        "react/jsx-closing-bracket-location": "off",
-        "react/jsx-closing-tag-location": "off",
-        "react/jsx-curly-newline": "off",
-        "react/jsx-curly-spacing": "off",
-        "react/jsx-equals-spacing": "off",
-        "react/jsx-first-prop-new-line": "off",
-        "react/jsx-indent": "off",
-        "react/jsx-indent-props": "off",
-        "react/jsx-max-props-per-line": "off",
-        "react/jsx-newline": "off",
-        "react/jsx-one-expression-per-line": "off",
-        "react/jsx-props-no-multi-spaces": "off",
-        "react/jsx-space-before-closing": "off",
-        "react/jsx-tag-spacing": "off",
-        "react/jsx-wrap-multilines": "off",
         "rest-spread-spacing": "off",
         "semi": "off",
         "semi-spacing": "off",
@@ -306,17 +289,17 @@ module.exports = {
         "wrap-iife": "off",
         "wrap-regex": "off",
         "yield-star-spacing": "off",
-        "@typescript-eslint/tslint/config": [
-            "error",
-            {
-                "rules": {
-                    "import-spacing": true,
-                    "linterOptions": true,
-                    "no-tautology-expression": true,
-                    "static-this": true,
-                    "switch-final-break": true
-                }
-            }
-        ]
+        // "@typescript-eslint/tslint/config": [
+        //     "error",
+        //     {
+        //         "rules": {
+        //             "import-spacing": true,
+        //             "linterOptions": true,
+        //             "no-tautology-expression": true,
+        //             "static-this": true,
+        //             "switch-final-break": true
+        //         }
+        //     }
+        // ]
     }
 };
