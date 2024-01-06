@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - 27017:27017
+    volumes:
+      - db-data:/data/db
+    command: --wiredTigerCacheSizeGB 1.5
+
+volumes:
+  db-data:
+    name: 'my-app-data'
